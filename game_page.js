@@ -51,4 +51,21 @@ else
 }
 }
 if(question_turn == "player1")
-   
+{
+    question_turn == "player 2"
+    document.getElementbyId("player_question").innerHTML = "Question Turn - " + player2_name ;
+}
+else
+    question_turn == "player 1"
+ document.getElementbyId("player_question").innerHTML = "Question Turn - " + player2_name ;
+
+    if(answer_turn == "player1")
+{
+    question_turn == "player 2"
+    document.getElementbyId("player_answer").innerHTML = "Answer Turn - " + player2_name ;
+}
+if(answer_turn == "player1")
+{
+    answer_turn == "player 1"
+ document.getElementbyId("player_answer").innerHTML = "Answer Turn - " + player2_name ;
+}
