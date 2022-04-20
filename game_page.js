@@ -15,7 +15,7 @@ document.getElementById("player_answer").innerHTML="Answer Turn🤔." + player2_
 
 function send(){
     get_word=document.getElementById("word").value;
-    word=get_word.toLowerCase():
+    word=get_word.toLowerCase()
     console.log ("answer word" + word);
     charAt1=word.charAt(1);
     length_divide_2=Math.floor(word.length/2);
