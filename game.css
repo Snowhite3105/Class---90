@@ -18,10 +18,3 @@ body{
 	letter-spacing: 5px;
 }
 
-#output{
-	border-radius: 10px;
-	border-top: 10px solid red; 
-	float: none;
-	padding: 5px;
-	text-align: center;
-}
