@@ -69,3 +69,4 @@ else{
     answer_turn == "player 1"
  document.getElementbyId("player_answer").innerHTML = "Answer Turn - " + player2_name ;
 }
+}
