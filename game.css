@@ -19,7 +19,6 @@ body{
 }
 
 #output{
-	background: pink;
 	border-radius: 10px;
 	border-top: 10px solid red; 
 	float: none;
