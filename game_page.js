@@ -13,7 +13,7 @@ document.getElementById("player2_score").innerHTML=player2_score;
 document.getElementById("player_question").innerHTML="Question Turn😉." + player1_name;
 document.getElementById("player_answer").innerHTML="Answer Turn🤔." + player2_name;
 
-function send(){
+function sendd(){
     get_word=document.getElementById("word").value;
     word=get_word.toLowerCase();
     console.log ("answer word" + word);
